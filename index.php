@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 <link rel="shortcut icon" href="images/LOGO-PHP.png" type="image/x-icon">
 <?php 
     session_start();
@@ -62,3 +70,5 @@
     include './inc/footer.php';
     include './inc/sticky.php';
 ?>
+</body>
+</html>
