@@ -1,0 +1,127 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+/********************** FOOTER ******************************/
+footer{
+    width: 100%;
+    background-color: var(--gray-dark);
+    color: var(--light);
+    padding: 10px 0;
+}
+footer .list-group-item{
+    background-color: rgba(255,0,0,0);
+    border: none;
+}
+footer .footer-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--danger);
+    margin-left: 10px;
+}
+footer .footer-payment-band img{
+    margin-left: 10px;
+}
+footer .footer-col-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .footer-slogan{
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+footer .fa-facebook,
+footer .fa-instagram,
+footer .fa-envelope,
+footer .fa-youtube{
+    font-size: 25px;
+    color: var(--white);
+    padding: 10px;
+}
+
+footer .footer-payment-icons{
+    display: flex;
+    padding: 10px;
+}
+
+footer .footer-payment-icons .payment-icon{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+footer .footer-payment-icons .payment-icon:hover{
+    background-color: var(--white);
+}
+
+footer .footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#margin{
+        margin-top: 50px;
+}
+
+#slide-right{
+        margin: -5px 0 0 -25px;
+    }
+
+/* 3/6/22 */
+.mt-1{
+    margin-top: (1*.25) !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+.img-responsive{
+    max-width: 100px;
+    min-width: 50px;
+    height: auto;
+}
+
+.inp-sl{
+    width: 100px !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* *{
+    padding: 0;
+    margin: 0 auto;
+} */
+
+
+
